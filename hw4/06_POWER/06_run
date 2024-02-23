@@ -1,0 +1,2 @@
+source /usr/cad/synopsys/CIC/primetime.cshrc
+pt_shell -f ./pt_script.tcl | tee pp.log

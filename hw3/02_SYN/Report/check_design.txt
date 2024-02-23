@@ -1,0 +1,139 @@
+ 
+****************************************
+check_design summary:
+Version:     U-2022.12
+Date:        Tue Nov  7 02:58:07 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     19
+    Unconnected ports (LINT-28)                                     8
+    Shorted outputs (LINT-31)                                       5
+    Constant outputs (LINT-52)                                      6
+
+Cells                                                              90
+    Cells do not drive (LINT-1)                                    81
+    Connected to power or ground (LINT-32)                          8
+    Nets connected to multiple pins on same cell (LINT-33)          1
+--------------------------------------------------------------------------------
+
+Warning: In design 'core', cell 'C7840' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C7972' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C7978' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C7987' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8002' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8006' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8020' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8024' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8044' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8068' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8081' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8094' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8107' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8113' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8117' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8121' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8135' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8142' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8145' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8149' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8153' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8159' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8163' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8166' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8170' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8174' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8177' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8181' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8185' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8188' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8192' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8196' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8199' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8203' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8207' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8210' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8214' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8218' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'B_197' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C8657' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'B_199' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'B_200' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'B_201' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'B_202' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'B_203' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'B_204' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'B_205' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'B_206' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'B_207' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'B_208' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9006' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9163' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'B_214' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9225' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9229' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9233' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9270' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9273' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9276' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9288' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9303' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9316' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9319' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9322' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9330' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9339' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9367' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9368' does not drive any nets. (LINT-1)
+Warning: In design 'core', cell 'C9369' does not drive any nets. (LINT-1)
+Warning: In design 'median_filter', cell 'C1436' does not drive any nets. (LINT-1)
+Warning: In design 'median_filter', cell 'C1459' does not drive any nets. (LINT-1)
+Warning: In design 'median_filter', cell 'C1497' does not drive any nets. (LINT-1)
+Warning: In design 'Sobel_gradient', cell 'B_17' does not drive any nets. (LINT-1)
+Warning: In design 'Sobel_gradient', cell 'B_18' does not drive any nets. (LINT-1)
+Warning: In design 'Sobel_gradient', cell 'B_19' does not drive any nets. (LINT-1)
+Warning: In design 'Sobel_gradient', cell 'B_20' does not drive any nets. (LINT-1)
+Warning: In design 'Sobel_gradient', cell 'B_26' does not drive any nets. (LINT-1)
+Warning: In design 'comparator', cell 'B_8' does not drive any nets. (LINT-1)
+Warning: In design 'comparator', cell 'B_9' does not drive any nets. (LINT-1)
+Warning: In design 'comparator', cell 'B_10' does not drive any nets. (LINT-1)
+Warning: In design 'comparator', cell 'B_11' does not drive any nets. (LINT-1)
+Warning: In design 'Sobel_gradient', port 'a5[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'Sobel_gradient', port 'a5[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'Sobel_gradient', port 'a5[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'Sobel_gradient', port 'a5[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'Sobel_gradient', port 'a5[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'Sobel_gradient', port 'a5[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'Sobel_gradient', port 'a5[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'Sobel_gradient', port 'a5[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'median_filter', output port 'median_result[13]' is connected directly to output port 'median_result[8]'. (LINT-31)
+Warning: In design 'median_filter', output port 'median_result[13]' is connected directly to output port 'median_result[9]'. (LINT-31)
+Warning: In design 'median_filter', output port 'median_result[13]' is connected directly to output port 'median_result[10]'. (LINT-31)
+Warning: In design 'median_filter', output port 'median_result[13]' is connected directly to output port 'median_result[11]'. (LINT-31)
+Warning: In design 'median_filter', output port 'median_result[13]' is connected directly to output port 'median_result[12]'. (LINT-31)
+Warning: In design 'Sobel_gradient', a pin on submodule 'comp' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'a1[20]' is connected to logic 0. 
+Warning: In design 'Sobel_gradient', a pin on submodule 'comp' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'a1[6]' is connected to logic 0. 
+Warning: In design 'Sobel_gradient', a pin on submodule 'comp' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'a1[5]' is connected to logic 0. 
+Warning: In design 'Sobel_gradient', a pin on submodule 'comp' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'a1[4]' is connected to logic 0. 
+Warning: In design 'Sobel_gradient', a pin on submodule 'comp' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'a1[3]' is connected to logic 0. 
+Warning: In design 'Sobel_gradient', a pin on submodule 'comp' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'a1[2]' is connected to logic 0. 
+Warning: In design 'Sobel_gradient', a pin on submodule 'comp' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'a1[1]' is connected to logic 0. 
+Warning: In design 'Sobel_gradient', a pin on submodule 'comp' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'a1[0]' is connected to logic 0. 
+Warning: In design 'Sobel_gradient', the same net is connected to more than one pin on submodule 'comp'. (LINT-33)
+   Net '*Logic0*' is connected to pins 'a1[20]', 'a1[6]'', 'a1[5]', 'a1[4]', 'a1[3]', 'a1[2]', 'a1[1]', 'a1[0]'.
+Warning: In design 'median_filter', output port 'median_result[13]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'median_filter', output port 'median_result[12]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'median_filter', output port 'median_result[11]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'median_filter', output port 'median_result[10]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'median_filter', output port 'median_result[9]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'median_filter', output port 'median_result[8]' is connected directly to 'logic 0'. (LINT-52)
+1

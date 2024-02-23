@@ -1,0 +1,100 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : core
+Version: U-2022.12
+Date   : Tue Nov  7 03:00:18 2023
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: sobel/i_clk_r_REG342_S6
+              (rising edge-triggered flip-flop clocked by i_clk)
+  Endpoint: sobel/comp/gt_2221/i_clk_r_REG225_S8
+            (rising edge-triggered flip-flop clocked by i_clk)
+  Path Group: i_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  core               tsmc13_wl10           slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock i_clk (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  sobel/i_clk_r_REG342_S6/CK (DFFSX4)                     0.00       0.50 r
+  sobel/i_clk_r_REG342_S6/QN (DFFSX4)                     0.35       0.85 r
+  sobel/add_2361/A[2] (Sobel_gradient_DW01_inc_0_DW01_inc_12)
+                                                          0.00       0.85 r
+  sobel/add_2361/U3/Y (NOR2BX4)                           0.18       1.03 r
+  sobel/add_2361/U1_1_3/CO (ADDHX4)                       0.17       1.20 r
+  sobel/add_2361/U1_1_4/CO (ADDHX4)                       0.16       1.36 r
+  sobel/add_2361/U1_1_5/CO (ADDHX4)                       0.16       1.52 r
+  sobel/add_2361/U1_1_6/CO (ADDHX4)                       0.16       1.68 r
+  sobel/add_2361/U1_1_7/CO (ADDHX4)                       0.16       1.84 r
+  sobel/add_2361/U1_1_8/S (ADDHX4)                        0.14       1.98 f
+  sobel/add_2361/SUM[8] (Sobel_gradient_DW01_inc_0_DW01_inc_12)
+                                                          0.00       1.98 f
+  sobel/U627/Y (OAI221X4)                                 0.50       2.48 r
+  sobel/U49/Y (BUFX20)                                    0.11       2.59 r
+  sobel/U368/Y (NAND2X2)                                  0.08       2.67 f
+  sobel/U116/Y (CLKMX2X6)                                 0.23       2.90 f
+  sobel/sub_0_root_sub_0_root_sub_2382/A[15] (Sobel_gradient_DW01_sub_7)
+                                                          0.00       2.90 f
+  sobel/sub_0_root_sub_0_root_sub_2382/U159/Y (NAND2X6)
+                                                          0.12       3.03 r
+  sobel/sub_0_root_sub_0_root_sub_2382/U202/Y (INVX6)     0.07       3.10 f
+  sobel/sub_0_root_sub_0_root_sub_2382/U154/Y (NOR2X8)
+                                                          0.08       3.18 r
+  sobel/sub_0_root_sub_0_root_sub_2382/U224/Y (OAI2BB1X4)
+                                                          0.14       3.32 f
+  sobel/sub_0_root_sub_0_root_sub_2382/U242/Y (OR2X8)     0.18       3.50 f
+  sobel/sub_0_root_sub_0_root_sub_2382/U258/Y (XOR2X4)
+                                                          0.12       3.62 f
+  sobel/sub_0_root_sub_0_root_sub_2382/U219/Y (INVX8)     0.10       3.72 r
+  sobel/sub_0_root_sub_0_root_sub_2382/DIFF[18] (Sobel_gradient_DW01_sub_7)
+                                                          0.00       3.72 r
+  sobel/sub_2384/A[18] (Sobel_gradient_DW01_sub_8)        0.00       3.72 r
+  sobel/sub_2384/U200/Y (NOR2X8)                          0.08       3.80 f
+  sobel/sub_2384/U187/Y (NOR2X6)                          0.11       3.91 r
+  sobel/sub_2384/U176/Y (AND2X8)                          0.14       4.05 r
+  sobel/sub_2384/U177/Y (NOR2X8)                          0.06       4.11 f
+  sobel/sub_2384/U186/Y (OAI21X4)                         0.13       4.24 r
+  sobel/sub_2384/U185/Y (XOR2X4)                          0.18       4.41 f
+  sobel/sub_2384/U138/Y (INVX16)                          0.14       4.56 r
+  sobel/sub_2384/DIFF[20] (Sobel_gradient_DW01_sub_8)     0.00       4.56 r
+  sobel/comp/a4[20] (comparator)                          0.00       4.56 r
+  sobel/comp/U136/Y (CLKINVX20)                           0.11       4.66 f
+  sobel/comp/U131/Y (OAI2BB2X2)                           0.21       4.87 f
+  sobel/comp/U130/Y (BUFX12)                              0.16       5.04 f
+  sobel/comp/gt_2221/B[12] (comparator_DW_cmp_22)         0.00       5.04 f
+  sobel/comp/gt_2221/U537/Y (AND2X8)                      0.13       5.17 f
+  sobel/comp/gt_2221/U579/Y (AOI21X4)                     0.15       5.32 r
+  sobel/comp/gt_2221/U562/Y (OAI21X4)                     0.10       5.42 f
+  sobel/comp/gt_2221/U584/Y (AOI21X4)                     0.13       5.55 r
+  sobel/comp/gt_2221/U596/Y (OAI21X4)                     0.11       5.66 f
+  sobel/comp/gt_2221/U517/Y (NAND2X6)                     0.08       5.74 r
+  sobel/comp/gt_2221/U514/Y (NAND2X6)                     0.06       5.80 f
+  sobel/comp/gt_2221/i_clk_r_REG225_S8/D (DFFRX2)         0.00       5.80 f
+  data arrival time                                                  5.80
+
+  clock i_clk (rise edge)                                 5.50       5.50
+  clock network delay (ideal)                             0.50       6.00
+  clock uncertainty                                      -0.10       5.90
+  sobel/comp/gt_2221/i_clk_r_REG225_S8/CK (DFFRX2)        0.00       5.90 r
+  library setup time                                     -0.10       5.80
+  data required time                                                 5.80
+  --------------------------------------------------------------------------
+  data required time                                                 5.80
+  data arrival time                                                 -5.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

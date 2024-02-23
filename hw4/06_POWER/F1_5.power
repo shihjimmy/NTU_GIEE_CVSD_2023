@@ -1,0 +1,190 @@
+****************************************
+Report : Time Based Power
+Design : IOTDF
+Version: T-2022.03
+Date   : Mon Nov 20 06:05:34 2023
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network              0.0000    0.0000    0.0000    0.0000 ( 0.00%)  i
+register                   0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+combinational           1.183e-03 6.821e-04 1.210e-05 1.877e-03 (64.51%)  
+sequential              9.626e-04 6.313e-05 7.059e-06 1.033e-03 (35.49%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 7.452e-04   (25.61%)
+  Cell Internal Power  = 2.145e-03   (73.73%)
+  Cell Leakage Power   = 1.916e-05   ( 0.66%)
+                         ---------
+Total Power            = 2.910e-03  (100.00%)
+
+X Transition Power     = 2.121e-07
+Glitching Power        =    0.0000
+
+Peak Power             =    0.2978
+Peak Time              =    40.000
+
+1
+****************************************
+Report : Time Based Power
+Design : IOTDF
+Version: T-2022.03
+Date   : Mon Nov 20 06:05:58 2023
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network              0.0000    0.0000    0.0000    0.0000 ( 0.00%)  i
+register                   0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+combinational           1.186e-03 6.844e-04 1.210e-05 1.882e-03 (64.53%)  
+sequential              9.644e-04 6.327e-05 7.059e-06 1.035e-03 (35.47%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 7.477e-04   (25.63%)
+  Cell Internal Power  = 2.150e-03   (73.71%)
+  Cell Leakage Power   = 1.916e-05   ( 0.66%)
+                         ---------
+Total Power            = 2.917e-03  (100.00%)
+
+X Transition Power     = 2.121e-07
+Glitching Power        =    0.0000
+
+Peak Power             =    0.2975
+Peak Time              =    35.000
+
+1
+****************************************
+Report : Time Based Power
+Design : IOTDF
+Version: T-2022.03
+Date   : Mon Nov 20 06:05:59 2023
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network              0.0000    0.0000    0.0000    0.0000 ( 0.00%)  i
+register                   0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+combinational           2.807e-05 1.463e-05 1.210e-05 5.480e-05 (16.44%)  
+sequential              2.645e-04 6.909e-06 7.059e-06 2.785e-04 (83.56%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 2.154e-05   ( 6.46%)
+  Cell Internal Power  = 2.926e-04   (87.79%)
+  Cell Leakage Power   = 1.916e-05   ( 5.75%)
+                         ---------
+Total Power            = 3.333e-04  (100.00%)
+
+X Transition Power     = 4.016e-07
+Glitching Power        =    0.0000
+
+Peak Power             =    0.2178
+Peak Time              =     5.000
+
+1
+****************************************
+Report : Time Based Power
+Design : IOTDF
+Version: T-2022.03
+Date   : Mon Nov 20 06:06:02 2023
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network              0.0000    0.0000    0.0000    0.0000 ( 0.00%)  i
+register                   0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+combinational           1.093e-04 4.380e-05 1.210e-05 1.652e-04 (14.62%)  
+sequential              8.995e-04 5.851e-05 7.059e-06 9.651e-04 (85.38%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 1.023e-04   ( 9.05%)
+  Cell Internal Power  = 1.009e-03   (89.25%)
+  Cell Leakage Power   = 1.916e-05   ( 1.69%)
+                         ---------
+Total Power            = 1.130e-03  (100.00%)
+
+X Transition Power     = 4.016e-07
+Glitching Power        =    0.0000
+
+Peak Power             =    0.2998
+Peak Time              =  4375.000
+
+1
+****************************************
+Report : Time Based Power
+Design : IOTDF
+Version: T-2022.03
+Date   : Mon Nov 20 06:06:05 2023
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network              0.0000    0.0000    0.0000    0.0000 ( 0.00%)  i
+register                   0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+combinational           1.419e-04 6.033e-05 1.210e-05 2.143e-04 (17.93%)  
+sequential              9.147e-04 5.885e-05 7.059e-06 9.806e-04 (82.07%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 1.192e-04   ( 9.97%)
+  Cell Internal Power  = 1.057e-03   (88.42%)
+  Cell Leakage Power   = 1.916e-05   ( 1.60%)
+                         ---------
+Total Power            = 1.195e-03  (100.00%)
+
+X Transition Power     = 4.016e-07
+Glitching Power        =    0.0000
+
+Peak Power             =    0.3000
+Peak Time              =  2190.000
+
+1
