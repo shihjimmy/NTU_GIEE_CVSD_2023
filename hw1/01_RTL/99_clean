@@ -1,0 +1,4 @@
+rm -rf *.history *.key *.log *.fsdb
+rm -rf novas.rc novas.conf simv
+rm -rf simv.daidir nWaveLog csrc cov_work
+rm -rf spyglass-1 verdiLog
